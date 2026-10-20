@@ -3,6 +3,6 @@
   "zipUrl": "https://github.com/keeie/auto-tax-release/raw/main/auto-tax-1.0.0.zip",
   "sha256": "0d3140db300f3f620e9f402fa8fcf6259c59a4324a1210d041aa84dcae60c91e",
   "signature": "dqfN3VV0Sr+FMBvKPBIQ2sIpZhQBGmLu4ZxxcVaZB0sg4zJXfVufIJEkltaOa21ELMVk8V3tzvjO59USRiTzCQ==",
-  "notes": "첫 배포: 자동 업데이트 도입",
-  "releasedAt": "2026-10-20T07:06:25.219Z"
+  "notes": "설치 매니저 추가",
+  "releasedAt": "2026-10-20T07:10:05.356Z"
 }
