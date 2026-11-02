@@ -1,8 +1,8 @@
 {
-  "version": "1.0.3",
-  "zipUrl": "https://github.com/keeie/auto-tax-release/raw/main/auto-tax-1.0.3.zip",
-  "sha256": "54c5e26930b7ef7433318d6680d79ac2dcdd916326ff522ebf021cd443361b34",
-  "signature": "1vTHfGmpPG2RaBaFyPLL49hAuebAnOIDGHXGNIit7N1XJ5NxLPtjegjGEsz9PDx6QHTp4GqhccivsqGrPi4kDg==",
-  "notes": "런처 업데이트 버튼과 앱 정보 API 추가, 아이콘 추가",
-  "releasedAt": "2026-11-02T11:55:29.273Z"
+  "version": "1.0.4",
+  "zipUrl": "https://github.com/keeie/auto-tax-release/raw/main/auto-tax-1.0.4.zip",
+  "sha256": "37efd41bed55859d9b604d757706645abe9c3d4fcc85db2ba34285e8eab128aa",
+  "signature": "ayZloPgJLR+a0DBSyAdCiGfy/r3QvYU2aevK4MumwF375ZHqEVprV8ZGoDd42NkAF3Q9ag7qjL/UtASy7FneCg==",
+  "notes": "발전소 목록에서 드래그로 순서 변경",
+  "releasedAt": "2026-11-02T12:24:28.493Z"
 }
