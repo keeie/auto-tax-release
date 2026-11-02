@@ -137,6 +137,8 @@ try {
     $lnk = $shell.CreateShortcut((Join-Path $desktop 'auto-tax.lnk'))
     $lnk.TargetPath = Join-Path $InstallDir 'auto-tax.vbs'
     $lnk.WorkingDirectory = $InstallDir
+    $iconFile = Join-Path $InstallDir 'assets\icon.ico'
+    if (Test-Path $iconFile) { $lnk.IconLocation = $iconFile }
     $lnk.Save()
   }
 

@@ -1,8 +1,8 @@
 {
-  "version": "1.0.2",
-  "zipUrl": "https://github.com/keeie/auto-tax-release/raw/main/auto-tax-1.0.2.zip",
-  "sha256": "7aacbc53b82fc110ae1398f6cfe92c1c3b1caa2c73c8703390b67d6cc35659ea",
-  "signature": "6d+GEW10bjgoTwEgeyUaBvKa6IGfMTWS/k6leX0esCgV+mRjhETRO0lOibbIv/Pg53S/qlf0q2sgY90ZsLiDAA==",
-  "notes": "REC 사이트 로그인 기능 추가",
-  "releasedAt": "2026-11-02T11:08:39.906Z"
+  "version": "1.0.3",
+  "zipUrl": "https://github.com/keeie/auto-tax-release/raw/main/auto-tax-1.0.3.zip",
+  "sha256": "54c5e26930b7ef7433318d6680d79ac2dcdd916326ff522ebf021cd443361b34",
+  "signature": "1vTHfGmpPG2RaBaFyPLL49hAuebAnOIDGHXGNIit7N1XJ5NxLPtjegjGEsz9PDx6QHTp4GqhccivsqGrPi4kDg==",
+  "notes": "런처 업데이트 버튼과 앱 정보 API 추가, 아이콘 추가",
+  "releasedAt": "2026-11-02T11:55:29.273Z"
 }
