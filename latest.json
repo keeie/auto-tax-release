@@ -1,8 +1,8 @@
 {
-  "version": "1.0.5",
-  "zipUrl": "https://github.com/keeie/auto-tax-release/raw/main/auto-tax-1.0.5.zip",
-  "sha256": "51a97aa88567c1ab2ac7bb24f8d2214591f5ce84c7a01a65fc30c65be3b3a18d",
-  "signature": "5JmTv7gS0vdu34nxzVfBf/27T7LFWEpUfAZIqT3ZE+NJkW/9Q0EK+cQ5uSZ8z2KCvOlcVo2vW8yKrFij8e/iDQ==",
-  "notes": "네이버 로그인 상태를 재사용해 새 기기 알림 메일을 줄임",
-  "releasedAt": "2026-11-13T08:08:49.533Z"
+  "version": "1.0.6",
+  "zipUrl": "https://github.com/keeie/auto-tax-release/raw/main/auto-tax-1.0.6.zip",
+  "sha256": "6307dbc476bc65f4cbc4c8d0d88a89fdb81d84f2c8e39e0a28640b18bc4f347f",
+  "signature": "knyIzby7b0ns8rFe7b+ekASvv0HRz0WYIlId1qWZqOF9qfAze0Mt0P8s/s/sVpK16dB7qt2Q+SI8Ct4ICNLfDQ==",
+  "notes": "세금계산서 발급(발급하기 + 전자서명) 모드 추가, REC 로그인 보완",
+  "releasedAt": "2026-11-13T09:00:48.857Z"
 }
