@@ -1,8 +1,8 @@
 {
-  "version": "1.0.4",
-  "zipUrl": "https://github.com/keeie/auto-tax-release/raw/main/auto-tax-1.0.4.zip",
-  "sha256": "37efd41bed55859d9b604d757706645abe9c3d4fcc85db2ba34285e8eab128aa",
-  "signature": "ayZloPgJLR+a0DBSyAdCiGfy/r3QvYU2aevK4MumwF375ZHqEVprV8ZGoDd42NkAF3Q9ag7qjL/UtASy7FneCg==",
-  "notes": "발전소 목록에서 드래그로 순서 변경",
-  "releasedAt": "2026-11-02T12:24:28.493Z"
+  "version": "1.0.5",
+  "zipUrl": "https://github.com/keeie/auto-tax-release/raw/main/auto-tax-1.0.5.zip",
+  "sha256": "51a97aa88567c1ab2ac7bb24f8d2214591f5ce84c7a01a65fc30c65be3b3a18d",
+  "signature": "5JmTv7gS0vdu34nxzVfBf/27T7LFWEpUfAZIqT3ZE+NJkW/9Q0EK+cQ5uSZ8z2KCvOlcVo2vW8yKrFij8e/iDQ==",
+  "notes": "네이버 로그인 상태를 재사용해 새 기기 알림 메일을 줄임",
+  "releasedAt": "2026-11-13T08:08:49.533Z"
 }
