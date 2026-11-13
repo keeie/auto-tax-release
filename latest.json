@@ -1,8 +1,8 @@
 {
-  "version": "1.0.6",
-  "zipUrl": "https://github.com/keeie/auto-tax-release/raw/main/auto-tax-1.0.6.zip",
-  "sha256": "6307dbc476bc65f4cbc4c8d0d88a89fdb81d84f2c8e39e0a28640b18bc4f347f",
-  "signature": "knyIzby7b0ns8rFe7b+ekASvv0HRz0WYIlId1qWZqOF9qfAze0Mt0P8s/s/sVpK16dB7qt2Q+SI8Ct4ICNLfDQ==",
-  "notes": "세금계산서 발급(발급하기 + 전자서명) 모드 추가, REC 로그인 보완",
-  "releasedAt": "2026-11-13T09:00:48.857Z"
+  "version": "1.0.7",
+  "zipUrl": "https://github.com/keeie/auto-tax-release/raw/main/auto-tax-1.0.7.zip",
+  "sha256": "a11f6a785e0df121a21d4fe65a50c27fdade66fa94d7ea0e69695bfaee047f15",
+  "signature": "LAKjSLFrwg42jfXYf5f2Y6kkm2ZhMfk4Kzr9WxJXy5PgeTs+eORjF8VaASEJyTp/HIedUY+CZP5hssMlVduLAA==",
+  "notes": "발급 화면 안내 팝업 판별 수정",
+  "releasedAt": "2026-11-13T09:15:01.577Z"
 }
