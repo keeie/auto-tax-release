@@ -6,9 +6,9 @@
   "launcher": {
     "version": "1.1.1",
     "url": "https://github.com/keeie/auto-tax-release/releases/download/v1.1.1/auto-tax.exe",
-    "sha256": "b9c92a8240e3399bd2406d9027175a90b38c7906760512dd4f6a0dfef32904f3",
-    "signature": "/Ep+JqXy1JiRITBKg5LgG6v5YB0K3TfQ+JYT79hivZAklaZzcIq4PWfN4wUfU+fkhLy+cRJMJswix2+aML8ZAQ=="
+    "sha256": "322aa0ab357628baf64c25f237466b61770ef6253f368aed3b49d18dafbfc627",
+    "signature": "KUu/jEhtMqdaF9YLztBOqO0cvmsWdTz/lUawMOKvJwacOXlqDn/L5bGWajkUlv+T3UdM3dW+TdLDAkCDv5KWAg=="
   },
-  "notes": "자동 업데이트 동작 확인용 버전",
-  "releasedAt": "2026-11-20T18:34:38.165Z"
+  "notes": "런처 수정 및 배포 방식 개선",
+  "releasedAt": "2026-11-20T18:52:51.884Z"
 }
