@@ -3,6 +3,6 @@
   "zipUrl": "https://github.com/keeie/auto-tax-release/raw/main/auto-tax-1.0.7.zip",
   "sha256": "a11f6a785e0df121a21d4fe65a50c27fdade66fa94d7ea0e69695bfaee047f15",
   "signature": "LAKjSLFrwg42jfXYf5f2Y6kkm2ZhMfk4Kzr9WxJXy5PgeTs+eORjF8VaASEJyTp/HIedUY+CZP5hssMlVduLAA==",
-  "notes": "발급 화면 안내 팝업 판별 수정",
-  "releasedAt": "2026-11-13T09:15:01.577Z"
+  "notes": "Installer fix: extract zip with .NET and read manifest as UTF-8",
+  "releasedAt": "2026-11-20T05:23:09.757Z"
 }

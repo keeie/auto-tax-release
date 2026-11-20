@@ -93,7 +93,8 @@ try {
   [IO.File]::WriteAllText($verifyPath, $VerifyScript)
 
   if ($LocalManifest) { Copy-Item $LocalManifest $manifestPath } else { Invoke-WebRequest -Uri $ManifestUrl -OutFile $manifestPath -UseBasicParsing }
-  $manifest = Get-Content $manifestPath -Raw | ConvertFrom-Json
+  # latest.json 은 UTF-8 이다. Windows PowerShell 5.1 은 인코딩을 주지 않으면 ANSI 로 읽어 한글 메모에서 실패한다.
+  $manifest = Get-Content $manifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
   if ($LocalZip) { Copy-Item $LocalZip $zipPath } else { Invoke-WebRequest -Uri $manifest.zipUrl -OutFile $zipPath -UseBasicParsing }
 
   & node $verifyPath $zipPath $manifestPath $keyPath
@@ -101,7 +102,20 @@ try {
 
   Write-Step "3. 프로그램 풀기: $InstallDir"
   New-Item -ItemType Directory -Force -Path $InstallDir | Out-Null
-  Expand-Archive -LiteralPath $zipPath -DestinationPath $InstallDir -Force
+  # Expand-Archive 는 일부 PC(샌드박스 등)에서 모듈을 못 불러오므로 .NET 으로 푼다.
+  Add-Type -AssemblyName System.IO.Compression.FileSystem
+  $zip = [IO.Compression.ZipFile]::OpenRead($zipPath)
+  try {
+    foreach ($entry in $zip.Entries) {
+      $dest = Join-Path $InstallDir $entry.FullName
+      if ($entry.FullName.EndsWith('/')) {
+        New-Item -ItemType Directory -Force -Path $dest | Out-Null
+      } else {
+        New-Item -ItemType Directory -Force -Path (Split-Path $dest -Parent) | Out-Null
+        [IO.Compression.ZipFileExtensions]::ExtractToFile($entry, $dest, $true)
+      }
+    }
+  } finally { $zip.Dispose() }
 
   Write-Step '4. 설정 파일 만들기'
   $configPath = Join-Path $InstallDir 'config.json'
