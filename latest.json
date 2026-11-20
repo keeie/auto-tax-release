@@ -1,14 +1,14 @@
 {
-  "version": "1.1.0",
-  "zipUrl": "https://github.com/keeie/auto-tax-release/raw/main/auto-tax-1.1.0.zip",
-  "sha256": "c11f222502afce63c5af19aee474063922286c23d16834f4ca1030db1bae4e25",
-  "signature": "5bmJNgFJTyS59nU1hrDk5vG91BcIYnpDs8HR65IJAxGmnmc/mMjZ70qWwrMhXf89RDs4yv9IRe8U5kEL90VTCg==",
+  "version": "1.1.1",
+  "zipUrl": "https://github.com/keeie/auto-tax-release/raw/main/auto-tax-1.1.1.zip",
+  "sha256": "37866208f2c29cdd973385f5dcef950435f2d252a0d3a06e9e9f68500ab361cc",
+  "signature": "oPh8CFi7sxVGXmlZJ8tGsff0XU8zkSKAHUb3FvDxVA2TZICn/CwAkqSLM7Y5StnKqvI8aTry6pvVoOFDQvV9CQ==",
   "launcher": {
-    "version": "1.1.0",
-    "url": "https://github.com/keeie/auto-tax-release/releases/download/v1.1.0/auto-tax.exe",
-    "sha256": "b0658f789ace19a5b0a5077352476684b3b322d9eea39a3dcad6fd6eb11b1712",
-    "signature": "AzqcW4oreCqS7hSz2PbCZRDCA/MKGd88n7mPbBln5r73f6uq6iqR/1BihMMnJCbTo2qqNT9dk79ukIvqP9v/Bg=="
+    "version": "1.1.1",
+    "url": "https://github.com/keeie/auto-tax-release/releases/download/v1.1.1/auto-tax.exe",
+    "sha256": "b9c92a8240e3399bd2406d9027175a90b38c7906760512dd4f6a0dfef32904f3",
+    "signature": "/Ep+JqXy1JiRITBKg5LgG6v5YB0K3TfQ+JYT79hivZAklaZzcIq4PWfN4wUfU+fkhLy+cRJMJswix2+aML8ZAQ=="
   },
-  "notes": "exe 처음 실행 시 자동 설치, 설치본 재사용, 라이선스 발전소 제한, 분석 기능 추가",
-  "releasedAt": "2026-11-20T18:06:57.788Z"
+  "notes": "자동 업데이트 동작 확인용 버전",
+  "releasedAt": "2026-11-20T18:34:38.165Z"
 }
