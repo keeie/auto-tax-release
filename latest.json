@@ -1,14 +1,14 @@
 {
   "version": "1.1.1",
-  "zipUrl": "https://github.com/keeie/auto-tax-release/releases/download/v1.1.1/auto-tax-1.1.1.zip",
+  "zipUrl": "https://github.com/keeie/auto-tax-release/raw/main/auto-tax-1.1.1.zip",
   "sha256": "37866208f2c29cdd973385f5dcef950435f2d252a0d3a06e9e9f68500ab361cc",
   "signature": "oPh8CFi7sxVGXmlZJ8tGsff0XU8zkSKAHUb3FvDxVA2TZICn/CwAkqSLM7Y5StnKqvI8aTry6pvVoOFDQvV9CQ==",
   "launcher": {
     "version": "1.1.1",
     "url": "https://github.com/keeie/auto-tax-release/releases/download/v1.1.1/auto-tax.exe",
-    "sha256": "335b907d10b029514e2d994cc486d52a76f65acd05d485247b8a71a5969d22c8",
-    "signature": "BllsTFzSWaYs1caF1FPj6EgEgVV9WLE6P5ofYbk1x6km9KHe8rJcsWbyJOyz8SMoWZFgtVGWXbo79FfVDCKDCg=="
+    "sha256": "1ce377d291da5656a8337c019d2fb600afeb2acc479d5cc8de50db1a159d4496",
+    "signature": "oq4+mZs3LCSAzFqb86/CZtSCZCZlT6fkpjVSAy8WMRXZjZzocpaan26a9K75Hr+PrOfjUT8UPSQNECVpXqfyBQ=="
   },
   "notes": "",
-  "releasedAt": "2026-11-20T19:03:49.401Z"
+  "releasedAt": "2026-11-25T04:05:26.086Z"
 }
